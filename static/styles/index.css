@@ -62,7 +62,7 @@ button[title="Delete"]:hover {
     border-color: #f44336;
 }
 
-/* Drop area styling */
+/* Drag&Drop area styling */
 #drop-area {
     border: 2px dashed #444;
     padding: 30px;
@@ -131,7 +131,7 @@ button[title="Delete"]:hover {
     opacity: 0;
 }
 
-/* Extension text */
+/* Filextension text */
 .file-square strong {
     font-size: 1.2em;
     display: block;
@@ -166,4 +166,3 @@ button[title="Delete"]:hover {
     cursor: pointer;
     z-index: 1;
 }
-

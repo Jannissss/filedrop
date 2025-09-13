@@ -3,9 +3,13 @@ import os
 import zipfile
 import io
 
+
+
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+
 
 @app.route('/')
 def index():
@@ -58,6 +62,8 @@ def delete_files():
             if os.path.exists(path):
                 os.remove(path)
     return jsonify(success=True)
+
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=9094)

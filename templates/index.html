@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>File Transfer</title>
+    <title>Filedrop</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -21,13 +21,10 @@
             </button>
         </div>
     </div>
-
     <div id="drop-area">
         <label for="fileElem">Or drag files here to upload</label>
     </div>
-
     <div id="file-pane"></div>
-
     <script src="{{ url_for('static', filename='scripts/files.js') }}"></script>
 </body>
 </html>

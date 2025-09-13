@@ -17,7 +17,6 @@ function uploadFile(file) {
     });
 }
 
-// 🟢 Drag-and-drop support
 ['dragenter', 'dragover'].forEach(eventName => {
     dropArea.addEventListener(eventName, e => {
         e.preventDefault();
@@ -39,7 +38,6 @@ dropArea.addEventListener('drop', e => {
     files.forEach(uploadFile);
 });
 
-// 🔄 Refresh and animate file squares
 function refreshFiles() {
     fetch("/files")
         .then(res => res.json())
@@ -123,7 +121,6 @@ function refreshFiles() {
         });
 }
 
-// 🧠 Smart download: selected or all
 function downloadSelected() {
     let filesToDownload = Array.from(selectedFiles);
 
