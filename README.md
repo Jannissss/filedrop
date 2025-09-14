@@ -1,3 +1,5 @@
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 # Filedrop
 
 A lightweight, self-hosted file-sharing server built with Python and Flask. Designed for private file transfers between your own devices.
@@ -71,3 +73,6 @@ Session-based access control is planned for an upcoming release to improve priva
 
 ## Preview Images
 ![Filedrop UI](images/ui.png)
+
+## License
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
