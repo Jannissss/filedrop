@@ -11,4 +11,4 @@ EXPOSE 5000
 CMD ["python", "server.py"]
 
 # Build from parent dir with:
-# docker build -f Dockerfile :v1 .
+# docker build -f Dockerfile filedrop:v1 .
